@@ -15,7 +15,8 @@ Performance is highly dependant on PC resources due to the nature of AI speech s
 - Be sure to have a Twitch Developer account, Add: http://localhost:4343/oauth/callback as the callback URL, and Make a note of your CLIENT_ID and CLIENT_SECRET.
 3. Run PIP INSTALL sounddevice soundfile (Audio player, not in normal requirements so include it here before we forget) 
 4. Navigate to the "Twitch" folder
-5. Find "twitch_data.py" and update it with your Twitch Information 
+5. Find "twitch_data.py" and update it with your Twitch Information. You will need another twitch account for the BOT to use, so make a new account only for the bot to use.
+  - For finding your Twitch IDs (both your main account and bot), I used [this website to help](https://www.streamweasels.com/tools/convert-twitch-username-%20to-user-id/)
 6. Find twitchAudio.py and open it in a text editor.  
 7. Comment out the entire "setup_hook" async function. We will uncomment this again in a second. 
 8. Logged in as the new bot Twitch account, navigate to http://localhost:4343/oauth?scopes=user:read:chat%20user:write:chat%20user:bot and authorize your account. 
