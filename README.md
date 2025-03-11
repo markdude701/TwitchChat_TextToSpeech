@@ -13,14 +13,15 @@ Performance is highly dependant on PC resources due to the nature of AI speech s
 1. Install ChatTTS using instructions or [on their repo](https://github.com/2noise/ChatTTS) or below! 
 2. Install TwitchIO using Pip and follow their [quick start instructions](https://twitchio.dev/en/latest/getting-started/quickstart.html)
 - Be sure to have a Twitch Developer account, Add: http://localhost:4343/oauth/callback as the callback URL, and Make a note of your CLIENT_ID and CLIENT_SECRET.
-3. Navigate to the "Twitch" folder
-4. Find "twitch_data.py" and update it with your Twitch Information 
-4. Find twitchAudio.py and open it in a text editor.  
-5. Comment out the entire "setup_hook" async function. We will uncomment this again in a second. 
-6. Logged in as the new bot Twitch account, navigate to http://localhost:4343/oauth?scopes=user:read:chat%20user:write:chat%20user:bot and authorize your account. 
-7. Similarly, now log in using your user account (not the bot) and navigate to http://localhost:4343/oauth?scopes=channel:bot to authorize your user account with the bot. 
-8. Stop the bot, uncomment the "setup_hook" section earlier. 
-9. Start the bot as expected.
+3. Run PIP INSTALL sounddevice soundfile (Audio player, not in normal requirements so include it here before we forget) 
+4. Navigate to the "Twitch" folder
+5. Find "twitch_data.py" and update it with your Twitch Information 
+6. Find twitchAudio.py and open it in a text editor.  
+7. Comment out the entire "setup_hook" async function. We will uncomment this again in a second. 
+8. Logged in as the new bot Twitch account, navigate to http://localhost:4343/oauth?scopes=user:read:chat%20user:write:chat%20user:bot and authorize your account. 
+9. Similarly, now log in using your user account (not the bot) and navigate to http://localhost:4343/oauth?scopes=channel:bot to authorize your user account with the bot. 
+10. Stop the bot, uncomment the "setup_hook" section earlier. 
+11. Start the bot.
   (Find more information about steps 5-9 in [TwitchIO's quick start instructions](https://twitchio.dev/en/latest/getting-started/quickstart.html)
 
 ### Note:
