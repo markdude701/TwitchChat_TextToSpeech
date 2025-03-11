@@ -23,7 +23,11 @@ Performance is highly dependant on PC resources due to the nature of AI speech s
 9. Similarly, now log in using your user account (not the bot) and navigate to http://localhost:4343/oauth?scopes=channel:bot to authorize your user account with the bot. 
 10. Stop the bot, uncomment the "setup_hook" section earlier. 
 11. Start the bot.
-  (Find more information about steps 5-9 in [TwitchIO's quick start instructions](https://twitchio.dev/en/latest/getting-started/quickstart.html)
+    
+---
+(Find more information about steps 5-9 in [TwitchIO's quick start instructions](https://twitchio.dev/en/latest/getting-started/quickstart.html)
+
+---
 
 ### Note:
 You'll probably have a bunch of dependencies or issues with pip. 
@@ -31,7 +35,7 @@ This process of installing both solutions can be confusing and since ChatTTS nee
 I found it easiest to do each section seperately instead of merging it all into a master repo. 
 In the end, I still had to fight through some issues with requirmenets and dependencies. 
 
-
+--- 
 ## CHAT TTS INSTALL
 Collected From: https://github.com/2noise/ChatTTS
 
@@ -132,7 +136,7 @@ See TwitchIO's [quick start instructions](https://twitchio.dev/en/latest/getting
 
 
 
-
+-----------------------------------------------------------------------------------------------------
 
 '''
 3rd Party Liscensing
