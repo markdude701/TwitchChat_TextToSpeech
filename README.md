@@ -20,7 +20,8 @@ Performance is highly dependant on PC resources due to the nature of AI speech s
 6. Logged in as the new bot Twitch account, navigate to http://localhost:4343/oauth?scopes=user:read:chat%20user:write:chat%20user:bot and authorize your account. 
 7. Similarly, now log in using your user account (not the bot) and navigate to http://localhost:4343/oauth?scopes=channel:bot to authorize your user account with the bot. 
 8. Stop the bot, uncomment the "setup_hook" section earlier. 
-9. Start the bot as expected. 
+9. Start the bot as expected.
+  (Find more information about steps 5-9 in [TwitchIO's quick start instructions](https://twitchio.dev/en/latest/getting-started/quickstart.html)
 
 ### Note:
 You'll probably have a bunch of dependencies or issues with pip. 
