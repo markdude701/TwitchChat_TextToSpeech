@@ -1,5 +1,5 @@
-A locally hosted alternative Text-To-Speech chat bot for Twitch. This is for cheap folks like me who don't want to pay for fancy Azure or other cloud subscription services. 
-
+# A locally hosted alternative Text-To-Speech chat bot for Twitch. 
+## This is for cheap folks like me who don't want to pay for fancy Azure or other cloud subscription services. 
 
 Mostly boilerplate code example from TwitchIO and ChatTTS, and a little async magic to make it work! 
 
