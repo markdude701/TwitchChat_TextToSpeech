@@ -1,0 +1,10 @@
+asqlite==2.0.0
+chattts==0.0.0
+numpy==2.2.3
+pydub==0.25.1
+scipy==1.15.2
+sounddevice==0.5.1
+soundfile==0.13.1
+torch==2.6.0
+torchaudio==2.6.0
+twitchio==3.0.0b3
