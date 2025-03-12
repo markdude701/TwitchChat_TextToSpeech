@@ -21,7 +21,7 @@ It uses ChatTTS and TwitchIO to convert the chat messages to text and then use C
 It's a kinda buggy but it was a fun quick late weekend night project. You'll likely run into issues when multiple chat messages are posted at once. There currently is no logic included to handle these cases and messages or audio will likely be played on top of each other in the current state of the code. Future improvements.
 
 If anyone actually wants to use it, feel free to message me if you have any questions. The installation is kinda balls, but I tried my best to write down the instructions within the repo. 
-
+- With love, Mark <3
 
 ---
 
