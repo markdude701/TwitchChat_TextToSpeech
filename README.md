@@ -10,8 +10,9 @@ I'll be suprised if anyone can get this to work because the headache of dependen
 Performance is highly dependant on PC resources due to the nature of AI speech synthesis. You'll more likely find information about performance [on their ChatTTS repo](https://github.com/2noise/ChatTTS)
 
 ## Quickstart
-1. Install ChatTTS using instructions or [on their repo](https://github.com/2noise/ChatTTS) or below! 
-2. Install TwitchIO using Pip and follow their [quick start instructions](https://twitchio.dev/en/latest/getting-started/quickstart.html)
+1. Install ChatTTS using instructions or [on their repo](https://github.com/2noise/ChatTTS) or below!
+   - Feel free to skip the steps about downloading the REPO. This Repo should have all the files we need, so no need to git clone. 
+3. Install TwitchIO using Pip and follow their [quick start instructions](https://twitchio.dev/en/latest/getting-started/quickstart.html)
 - Be sure to have a Twitch Developer account, Add: http://localhost:4343/oauth/callback as the callback URL, and Make a note of your CLIENT_ID and CLIENT_SECRET.
 3. Run PIP INSTALL sounddevice soundfile (Audio player, not in normal requirements so include it here before we forget) 
 4. Navigate to the "Twitch" folder
