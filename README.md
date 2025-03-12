@@ -9,6 +9,22 @@ I'll be suprised if anyone can get this to work because the headache of dependen
 
 Performance is highly dependant on PC resources due to the nature of AI speech synthesis. You'll more likely find information about performance [on their ChatTTS repo](https://github.com/2noise/ChatTTS)
 
+---
+
+##  Personal Write-up
+A few nights ago, I wrote a crappy Twitch Chat to TTS bot for my stream. 
+
+This uses a locally hosted TTS AI, instead of using Azure, Google, or OpenAI since I'm a cheapo and don't want to pay monthly/yearly subscriptions costs, and I think it's more fun and comforting to locally host my own AIs if I can. 
+
+It uses ChatTTS and TwitchIO to convert the chat messages to text and then use ChatTTS to convert it and auto play the chat message. 
+
+It's a kinda buggy but it was a fun quick late weekend night project. You'll likely run into issues when multiple chat messages are posted at once. There currently is no logic included to handle these cases and messages or audio will likely be played on top of each other in the current state of the code. Future improvements.
+
+If anyone actually wants to use it, feel free to message me if you have any questions. The installation is kinda balls, but I tried my best to write down the instructions within the repo. 
+
+
+---
+
 ## Quickstart
 1. Install ChatTTS using instructions or [on their repo](https://github.com/2noise/ChatTTS) or below!
    - Feel free to skip the steps about downloading the REPO. This Repo should have all the files we need, so no need to git clone. 
